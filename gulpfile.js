@@ -11,7 +11,7 @@ var gulp = require('gulp'),
     sourcemaps = require('gulp-sourcemaps');
 
 
-// rfer/ компиляция sass
+// компиляция sass
 
 gulp.task('sass', () => {
     gulp.src('app/sass/**/*.+(sass|scss)')
